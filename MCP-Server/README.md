@@ -302,11 +302,3 @@ To add a new endpoint:
 2. Create a new tool function decorated with `@mcp.tool()`
 3. Include validation calls for parameters
 4. Return structured JSON via `fetch_json()`
-
-## License
-
-Internal MPA use.
-
-## Support
-
-For issues or questions, contact the development team.
