@@ -5,9 +5,13 @@ __pycache__/
 *.py[cod]
 
 .venv
+test_env/
 
 .vscode/*
 
 *.zip
 
 *.geojson
+
+.env
+.env.local

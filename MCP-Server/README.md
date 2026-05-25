@@ -49,7 +49,11 @@ Clients must send an `apikey` HTTP header to the MCP server. The server forwards
 docker build -t mpa-ocx-mcp .
 docker run --rm -p 8000:8000 mpa-ocx-mcp
 ```
-
+## Test
+set .env for MCP URL and API Key, refer to .env.example
+```bash
+python mcp_client_test.py
+```
 ## Notes
 
 - The server is designed for experimentation and integration learning.
